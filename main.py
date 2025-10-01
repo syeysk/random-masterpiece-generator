@@ -35,7 +35,7 @@ args_list = [
     (10000000, 1, 5, letters, real_syllables),
     (100000, 1, 3, list(real_syllables), real_words),
     (1000, 1, 2, list(real_words), real_word_combinations, ' '),
-    (1000000, 1, 8, list(real_word_combinations), real_sentences, ' '),
+    (10000000, 7, 8, list(real_word_combinations), real_sentences, ' '),
 ]
 
 for args in args_list:
